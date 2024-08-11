@@ -1,0 +1,108 @@
+#root{
+  height: 100%;
+  overflow: auto;
+}
+
+.dashboardmenu{
+  list-style: none;
+}
+
+.menutitle,
+.search,
+.user,
+.flag,
+.analysis,
+.message,
+.task,
+.calendar,
+.setting{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    gap:1rem;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 5rem;
+  left: 15rem;
+  width: calc(100vw - 15rem);
+  background-color: #ffffff;
+  color: #5584ce;
+  border: #5584ce;
+  border-style: none none solid none;
+  border-width: thin;
+  text-align: center;
+  display: flex;
+  justify-content:space-between;
+  line-height: 5rem;
+  font-size: 2rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.userinfo{
+  position: fixed;
+  right: 2rem;
+  width: auto;
+  list-style: none;
+  display: flex;
+  justify-content:right;
+  gap: 1rem;
+}
+.sidebar {
+  position: fixed;
+  top:0;
+  left: 0;
+  color: ;
+  width: 15rem;
+  height: 100%;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+}
+
+.menutitle{
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 3rem;
+  background-color: #5584ce;
+  color: #ffffff;
+}
+
+.dashboardmenu{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  gap: 3rem;
+  align-items: center;
+  font-size: 1.6rem;
+
+}
+
+.content{
+  position: fixed;  
+  top: 5rem;
+  left: 15rem;
+  width: 80%;
+  height: 80%;
+  border: #5584ce;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  padding: 2rem;
+}
+
+.userdashboard{
+  height:100%;
+}

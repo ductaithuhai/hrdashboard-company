@@ -1,0 +1,154 @@
+.adduserform{
+    position: fixed;
+    width: 50%;
+    height: 80vh;
+    min-height: 50rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #ffffff;
+    border: 0.1rem solid #2581b8;
+    border-radius: 2rem;
+}
+.leftpopup{
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: grid;
+    grid-template-rows: calc(100% / 12) calc(100% / 12) calc(800% / 12) calc(100% / 12);
+    gap: 2rem;
+    background-color: #2581b8;
+    padding: 2rem;
+    border-style: solid none none none;
+    border-radius: 2rem;
+}
+.rightpopup{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 2rem;
+}
+
+.avatarchange{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+  .formblock {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+  }
+  
+  .formtitle,
+  .formdes {
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .formtitle {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 100%;
+    font-size: 3.2rem;
+  }
+  
+  .formdes {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    font-size: 2.4rem;
+  }
+  label{
+    font-size: 1.8rem;
+    color:#ffffff;
+  }
+
+  .mailandrole,
+  .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .role,
+  .email,
+  .firstname,
+  .lastname{
+    width: 49.5%;
+  }
+
+
+  .email,
+  .firstname,
+  .lastname,
+  .password,
+  .role,
+  .phone {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+  }
+
+  input{
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem;
+  }
+
+  select{
+    font-size: 2rem;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem;
+  }
+  
+  .botbutton {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .submituser,
+  .cancel{
+    font-size: 2.4rem;
+    background-color: #ffffff;
+    color:#2581b8
+  }
+
+  .placeholder{
+    width: 40rem; 
+    height: 20rem;
+  }
+  .changetitle{
+    font-size: 3.2rem;
+  }
+  .custom-file-upload{
+    font-size: 2.4rem;
+    color: #ffffff;
+    background-color: #2581b8;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  .avatar-preview {
+    width: 400px; 
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+  }
