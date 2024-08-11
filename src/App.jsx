@@ -2,6 +2,7 @@ import { useState } from 'react'
 import UserDashboard from './features/user/pages/dashboard/index';
 import AddUserForm from './features/user/pages/addUserForm/index';
 import './App.css'
+import avatarplaceholder from './assets/icons/avatarplaceholder.png';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -59,11 +60,22 @@ function App() {
         </div>
         <div className="header">
           <div className='bigname'>HRDept Company</div>
-          <ul className="userinfo">
-            <li className='notification'>N</li>
-            <li className='username'>Na</li>
-            <li className='avatar'>Av</li>
-          </ul>
+          <div className="userinfo">
+            <div className='notification'>
+              <i class="fa-solid fa-bell"></i>
+            </div>
+            <div className='username'>
+              <div className='Uname'>Hr Admin 1</div>
+              <div className='position'>Product manager</div>
+            </div>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: "center"
+            }}>
+              <img className='avatar' src={avatarplaceholder} />
+            </div>
+          </div>
         </div>
         <div className='content'>
           <div className='userdashboard'><UserDashboard /></div>

@@ -49,20 +49,38 @@
   padding: 0 2rem 0 2rem;
 }
 
+.username{
+  height: 5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+}
+
 .userinfo{
   position: fixed;
   right: 2rem;
-  width: auto;
-  list-style: none;
+  width: 100%;
   display: flex;
   justify-content:right;
   gap: 1rem;
 }
+.avatar{
+  width: 5rem;
+  height: 2.5rem;
+}
+
+.Uname,
+.position{
+  height: 2rem;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
 .sidebar {
   position: fixed;
   top:0;
   left: 0;
-  color: ;
   width: 15rem;
   height: 100%;
   background-color: #f4f4f4;

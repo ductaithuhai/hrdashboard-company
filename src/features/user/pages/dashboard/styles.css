@@ -10,6 +10,20 @@
     color: #5584ce;
 }
 
+.userinfo{
+    width: 100%;
+}
+
+.username{
+    height: 5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+}
+
 .rightbutton{
     height: 100%;
     display: flex;
